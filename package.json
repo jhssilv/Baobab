@@ -1,0 +1,32 @@
+{
+  "name": "baobab",
+  "version": "1.0.0",
+  "description": "Tree Generating Script",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "baobab": "bin/cli.js"
+  },
+  "directories": {
+    "doc": "docs",
+    "example": "examples",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest",
+    "start": "node ./bin/cli.js",
+    "lint": "eslint . --ext .js"
+  },
+  "author": "jhssilv",
+  "license": "ISC",
+  "dependencies": {
+    "ignore": "^7.0.4",
+    "minimist": "^1.2.8"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
