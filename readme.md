@@ -61,12 +61,9 @@ See [USAGE.md](USAGE.md) for detailed flags and examples.
 project/
 ├── bin/
 │   └── cli.js  # CLI entrypoint
-├── src/
-│   ├── generateTree.js  # Core logic
-│   └── utils.js
-└── trees/
-    ├── tree.txt
-    └── tree.mmd
+└── src/
+    ├── generateTree.js  # Core logic
+    └── utils.js
 ```
 
 **Mermaid Flowchart**
