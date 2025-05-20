@@ -86,5 +86,5 @@ flowchart LR
 By default the tool writes to `./trees`. To change:
 
 ```bash
-gen-tree --outputDir docs/structure
+baobab --outputDir docs/structure
 ```
